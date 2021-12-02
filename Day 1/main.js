@@ -15,7 +15,7 @@ function part1(input) {
 
 function part2(input) {
     let inc = 0;
-    for (let i = 1; i <= input.length - 3; i++) {
+    for (let i = 1; i <= input.length - 2; i++) {
         if (+input[i - 1] < +input[i + 2]) inc++;
     }
     return inc;
